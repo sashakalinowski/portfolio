@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-    color: #333333;
+    color: #333;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -13,7 +13,7 @@ body {
 /* Стили для заголовка */
 header {
     background-color: #b3e5d4; /* Пастельный зелено-голубой */
-    color: #333333;
+    color: #333;
     padding: 20px 0;
     text-align: center;
 }
@@ -29,7 +29,7 @@ header {
 
 /* Секция о себе */
 .about-me {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -44,7 +44,7 @@ header {
 /* Стили для списка проектов */
 main h2 {
     font-size: 2em;
-    color: #333333;
+    color: #333;
     text-align: center;
     margin-top: 0;
 }
@@ -59,7 +59,7 @@ ul.project-list {
 }
 
 ul.project-list li {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@ ul.project-list li:hover {
 
 ul.project-list li a {
     text-decoration: none;
-    color: #333333;
+    color: #333;
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -83,7 +83,7 @@ ul.project-list li a {
 /* Стили для нижнего колонтитула */
 footer {
     background-color: #e1bee7; /* Пастельный сиреневый */
-    color: #333333;
+    color: #333;
     padding: 10px 0;
     text-align: center;
     margin-top: auto;
@@ -95,7 +95,7 @@ footer {
 
 .social-links a {
     text-decoration: none;
-    color: #333333;
+    color: #333;
     margin: 0 10px;
     font-size: 1.5em;
 }
