@@ -129,6 +129,9 @@ footer {
 .back-home-button:hover {
     background-color: #99d1bb; /* Немного темнее при наведении */
 }
+.about-me {
+    text-align: center;
+}
 
 .profile-image-wrapper {
     display: inline-block;
