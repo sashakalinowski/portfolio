@@ -137,10 +137,10 @@ footer {
 }
 
 .profile-picture {
-    width: 150px; /* Размер изображения */
-    height: 150px; /* Высота изображения */
-    border-radius: 50%; /* Округление изображения */
-    object-fit: cover; /* Чтобы изображение не искажалось */
-    border: 4px solid #b3e5d4; /* Тонкая рамка вокруг изображения */
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 4px solid #b3e5d4; 
 }
 
