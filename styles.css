@@ -20,7 +20,7 @@ header {
 
 /* Основные стили контейнера */
 .container {
-    width: 80%;
+    width: 75%; /* Уменьшенная ширина для лучшей компоновки */
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -30,7 +30,7 @@ header {
 /* Секция о себе */
 .about-me {
     background-color: #fff;
-    padding: 20px;
+    padding: 30px; /* Внутренний отступ для более комфортного размещения текста */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
@@ -53,8 +53,8 @@ ul.project-list {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Вертикальное расположение */
-    align-items: center; /* Центрирование по горизонтали */
+    flex-direction: column;
+    align-items: center;
     gap: 15px;
 }
 
