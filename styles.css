@@ -27,8 +27,8 @@ header {
     flex: 1;
 }
 
-/* Секция о себе */
-.about-me {
+/* Секция о себе или о проекте */
+.project-details {
     background-color: #fff;
     padding: 30px; /* Внутренний отступ для более комфортного размещения текста */
     border-radius: 8px;
@@ -36,17 +36,30 @@ header {
     margin-bottom: 30px;
 }
 
-.about-me p {
+.project-details p {
     font-size: 1.1em;
     line-height: 1.6;
 }
 
-/* Стили для списка проектов */
-main h2 {
-    font-size: 2em;
+/* Стили для изображения проекта */
+.project-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Секция с другими проектами */
+.other-projects {
+    margin-top: 40px;
+}
+
+.other-projects h3 {
+    font-size: 1.8em;
     color: #333;
     text-align: center;
-    margin-top: 0;
 }
 
 ul.project-list {
@@ -99,3 +112,4 @@ footer {
     margin: 0 10px;
     font-size: 1.5em;
 }
+
