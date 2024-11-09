@@ -9,8 +9,8 @@ body {
 
 /* Стили для заголовка */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #b3e5d4; /* Пастельный зелено-голубой */
+    color: #333;
     padding: 20px 0;
     text-align: center;
 }
@@ -54,9 +54,9 @@ ul.project-list {
     list-style: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column; /* Вертикальное расположение */
+    align-items: center; /* Центрирование по горизонтали */
     gap: 15px;
-    justify-content: center;
 }
 
 ul.project-list li {
@@ -64,7 +64,7 @@ ul.project-list li {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 45%;
+    width: 100%;
     max-width: 300px;
     text-align: center;
     transition: transform 0.2s;
@@ -83,8 +83,8 @@ ul.project-list li a {
 
 /* Стили для нижнего колонтитула */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #e1bee7; /* Пастельный сиреневый */
+    color: #333;
     padding: 10px 0;
     text-align: center;
 }
@@ -95,7 +95,7 @@ footer {
 
 .social-links a {
     text-decoration: none;
-    color: #fff;
+    color: #333;
     margin: 0 10px;
     font-size: 1.5em;
 }
