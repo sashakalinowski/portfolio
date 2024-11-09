@@ -129,17 +129,23 @@ footer {
 .back-home-button:hover {
     background-color: #99d1bb; /* Немного темнее при наведении */
 }
-/* Стили для изображения профиля */
+
+/* Стили для контейнера изображения */
 .profile-picture-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%; 
+    border: 10px solid #b3e5d4; 
 }
 
+/* Стили для изображения */
 .profile-picture {
-    width: 600px; 
-    height: 600px; 
+    width: 100%; 
+    height: 100%; 
     border-radius: 50%; 
-    object-fit: cover; 
-    border: 10px solid #b3e5d4; 
+    object-fit: cover;
 }
